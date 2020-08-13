@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Palindrome finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Palindrome Checker</a>
+        </div>
+      </nav>
+<div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <h5 class="card-title text-center">Check for palindrome of a word</h5>
+                <form class="form-signin" id="checkerForm">
+                  <div class="form-label-group">
+                    <input class="form-control"id="inputValue" type="text"  placeholder="Enter a word" required autofocus>
+                    <label onclick="document.getElementById('inputValue').focus();" for="inputEmail">Enter a word</label>
+                  </div>
+                  <button id="buttonChecker" type="submit" class="btn btn-lg btn-primary btn-block text-uppercase" >Check pallindrome</button>
+                  <hr class="my-4">
+                  <h5 id="message" class="card-title text-center"></h5>
+                 <br/>
+                 <h5 id="reverse" class="card-title text-center"></h5>
+                </form>
+              </div>
+              <!--dummy code-->
+            </div>
+          </div>
+        </div>
+      </div>
+  <script src="app.js"></script>
+ 
+</body>
+</html>
